@@ -406,6 +406,7 @@ COMMON_SRC = \
             io/serial_cli.c \
             io/serial_msp.c \
             io/statusindicator.c \
+			io/pwmdriver_i2c.c \
             rx/ibus.c \
             rx/msp.c \
             rx/nrf24.c \
