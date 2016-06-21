@@ -219,3 +219,6 @@
 #define TARGET_IO_PORTC ( BIT(14) )
 
 #define USED_TIMERS     ( TIM_N(1) | TIM_N(2) | TIM_N(3) | TIM_N(4) )
+
+#define USE_PMW_SERVO_DRIVER
+#define PWM_DRIVER_PCA9685
