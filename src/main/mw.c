@@ -350,7 +350,7 @@ void processRx(void)
         }
     }
 
-    processRcStickPositions(&masterConfig.rxConfig, throttleStatus, masterConfig.disarm_kill_switch);
+    processRcStickPositions(&masterConfig.rxConfig, throttleStatus, masterConfig.disarm_kill_switch, masterConfig.fixed_wing_auto_arm);
 
     updateActivatedModes(currentProfile->modeActivationConditions);
 
